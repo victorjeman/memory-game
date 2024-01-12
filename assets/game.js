@@ -196,7 +196,7 @@ const flipCard = (card) => {
   if (shouldAddFlippedCssClass) addFlippedCssClass(card);
 
   if (getFlippedCardsInfo().cardsContentMatch) addMatchedCssClass();
-  if (flippedTwoCards) setTimeout(flipCardsBack, 800);
+  if (flippedTwoCards) setTimeout(flipCardsBack, 500);
 
   checkIfGameEnded();
 };
